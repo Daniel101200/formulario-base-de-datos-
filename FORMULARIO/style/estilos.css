@@ -1,0 +1,121 @@
+
+html{
+    background-color: rgb(181, 255, 245);
+}
+h1, h2{
+    font-size: 30PX;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.imagen{
+    background-image: url(../img/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background-color: #5a5a5ce0;
+      
+    }
+    .contenido {   
+    background-color: rgba(29, 28, 28, 0.7); 
+    background-color: rgb( 0 0 0 / 50% );
+    height: 100px;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    }
+
+.formulario {
+        background-color: #5a5a5ce0;
+        width: min( 70rem, 40% ); 
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 1.5rem; 
+        font-size: 20px;  
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo {
+    padding: 10px;
+}
+
+.campo label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo_select {
+    display: grid;    
+}
+
+.campo input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.campo_select{
+    width: 75%;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.boton-enviar {
+    background-color: #ffbb00e0;
+    color: #080808e0 ;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+    border: 10px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+.alinear {
+    justify-content: flex-end;
+}
+
+
+/** main**/
+.msg-error{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+   
+    background-color: rgba(255, 22, 22, 50%);
+    height: 30px;
+    padding: .5rem;
+    }
+
+    
+    
+
+
+.msg-ok{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center; 
+    font-weight: bold;
+
+    background-color: rgba(22, 255, 72, 0.5);
+    height: 30px;
+    padding: .5rem;
+    
+}
